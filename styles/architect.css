@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=PT+Serif:ital@1&family=Poppins&family=Roboto:ital,wght@0,900;1,300;1,400;1,900&family=Space+Mono&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* Shared Styles */
+body{
+    margin-top: 0;
+}
 *{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -113,8 +116,8 @@ main{
 .features{
     display: flex;
     padding: 20px;
+    margin-right: 50px;
     margin-top: 130px;
-    gap: 100px;
 }
 .features .section-title{
     border-left: 5px solid #FF900E;
@@ -195,8 +198,8 @@ main{
 }
 
 /* footer section */
-footer{
-    width: 1440px;
+.footers{
+    max-width: 1440px;
     margin: 100px auto;
     align-items: center;
 }
@@ -245,9 +248,6 @@ footer{
         position: static;
         width: 75%;
     }
-    footer{
-        width: 100%;
-    }
 }
 
 /* Tablet devices */
@@ -270,8 +270,5 @@ footer{
     .feature-image img{
         width: 100%;
         margin-left: 0;
-    }
-    footer{
-        width: 100%;
     }
 }
